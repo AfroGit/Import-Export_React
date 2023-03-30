@@ -18,7 +18,7 @@ function Profile({person, imageSize= 100}){
 <ul>
   <li>
     <b>Profession: </b> {person.profession}
-    physicist and chemist
+   
   </li>
   <li>
     <b>Awards: {person.awards.length} </b> 
@@ -41,7 +41,7 @@ export default function Gallery() {
     <div>
       <h1>Notable Scientists</h1>
       <Profile person={{
-        ImageId: 'szV5sdG',
+        imageId: 'szV5sdG',
         name: 'Maria Skłodowska-Curie',
         profession: 'physicist and chemist',
         discovery: 'polonium (element)',
@@ -53,7 +53,7 @@ export default function Gallery() {
           
         ]
       }} />
-      <Profile />
+{/*       <Profile /> */}
       
     </div>
   );
